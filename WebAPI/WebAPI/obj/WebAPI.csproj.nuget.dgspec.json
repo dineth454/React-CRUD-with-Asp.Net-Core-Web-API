@@ -1,34 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Shamseer\\.nuget\\packages\\",
-        "outputPath": "F:\\profession\\CodAffection\\React JS\\CRUD with Asp.Net Core\\project\\WebAPI\\WebAPI\\obj\\",
+        "projectPath": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Dineth Madusara\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Shamseer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dineth Madusara\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net8.0": {
+            "targetAlias": "netcoreapp8.0",
             "projectReferences": {}
           }
         },
@@ -36,10 +35,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net8.0": {
+          "targetAlias": "netcoreapp8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
@@ -47,17 +52,17 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -74,7 +79,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -86,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,6 +18,7 @@ namespace WebAPI
     {
         public Startup(IConfiguration configuration)
         {
+            Console.WriteLine("Test Flow 2");
             Configuration = configuration;
         }
 

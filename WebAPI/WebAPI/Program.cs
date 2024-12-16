@@ -11,13 +11,29 @@ namespace WebAPI
 {
     public class Program
     {
+        public static ILogger<Program> Logger { get; private set; }
+
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+            // Set up the logger
+            Logger = host.Services.GetService(typeof(ILogger<Program>)) as ILogger<Program>;
+            // Example logging
+            Logger?.LogInformation("Application has started.");
+
+            // Run the host
+            host.Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureLogging(logging =>
+                {
+                    // Add logging providers (console, debug, etc.)
+                    logging.ClearProviders();
+                    logging.AddConsole();
+                    logging.AddDebug();
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

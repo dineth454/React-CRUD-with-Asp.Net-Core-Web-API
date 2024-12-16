@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using WebAPI.Models;
 
 namespace WebAPI.Controllers
@@ -24,6 +25,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DCandidate>>> GetDCandidates()
         {
+            Program.Logger?.LogInformation("Inside Get request of DCandidate.");
             return await _context.DCandidates.ToListAsync();
         }
 
