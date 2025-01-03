@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -20,6 +21,11 @@ namespace WebAPI
             Logger = host.Services.GetService(typeof(ILogger<Program>)) as ILogger<Program>;
             // Example logging
             Logger?.LogInformation("Application has started.");
+
+            using (var scope = host.Services.CreateScope())
+            {
+                SeedData.Initialize(scope.ServiceProvider);
+            }
 
             // Run the host
             host.Run();

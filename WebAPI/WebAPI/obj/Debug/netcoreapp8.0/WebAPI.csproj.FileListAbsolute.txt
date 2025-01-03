@@ -1,5 +1,6 @@
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\appsettings.Development.json
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\appsettings.json
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\keys\is-signing-key-0849FD6DEACA27790500875196AF25E1.json
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\WebAPI.exe
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\WebAPI.deps.json
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\WebAPI.runtimeconfig.json
@@ -7,7 +8,14 @@ C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\WebAPI.pdb
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Azure.Core.dll
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Azure.Identity.dll
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Duende.IdentityServer.dll
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Duende.IdentityServer.AspNetIdentity.dll
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Duende.IdentityServer.Storage.dll
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Humanizer.dll
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\IdentityModel.dll
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Dev\React-CRUD-with-Asp.Net-Core-Web-API\WebAPI\WebAPI\bin\Debug\netcoreapp8.0\Microsoft.Build.Locator.dll

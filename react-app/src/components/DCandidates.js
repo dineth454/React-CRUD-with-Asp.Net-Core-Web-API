@@ -34,7 +34,16 @@ const DCandidates = ({ classes, ...props }) => {
     const onDelete = id => {
         if (window.confirm('Are you sure to delete this record?'))
             props.deleteDCandidate(id,()=>addToast("Deleted successfully", { appearance: 'info' }))
-    }
+    };
+
+    // Logout handler
+    const handleLogout = () => {
+        if (window.confirm("Are you sure you want to logout?")) {
+            localStorage.removeItem("access_token"); // Clear token
+            window.location.reload(); // Redirect to login page
+        }
+    };
+/*   
     return (
         <Paper className={classes.paper} elevation={3}>
             <Grid container>
@@ -76,6 +85,64 @@ const DCandidates = ({ classes, ...props }) => {
                 </Grid>
             </Grid>
         </Paper>
+    );
+*/
+return (
+    <Paper className={classes.paper} elevation={3}>
+        <Grid container>
+            <Grid item xs={12} style={{ textAlign: "right" }}>
+                <button className={classes.logoutButton} onClick={handleLogout}>
+                    Logout
+                </button>
+            </Grid>
+            <Grid item xs={6}>
+                <DCandidateForm {...{ currentId, setCurrentId }} />
+            </Grid>
+            <Grid item xs={6}>
+                <TableContainer>
+                    <Table>
+                        <TableHead className={classes.root}>
+                            <TableRow>
+                                <TableCell>Name</TableCell>
+                                <TableCell>Mobile</TableCell>
+                                <TableCell>Blood Group</TableCell>
+                                <TableCell></TableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                            {props.dCandidateList.map((record, index) => {
+                                return (
+                                    <TableRow key={index} hover>
+                                        <TableCell>{record.fullName}</TableCell>
+                                        <TableCell>{record.mobile}</TableCell>
+                                        <TableCell>{record.bloodGroup}</TableCell>
+                                        <TableCell>
+                                            <ButtonGroup variant="text">
+                                                <Button>
+                                                    <EditIcon
+                                                        color="primary"
+                                                        onClick={() => {
+                                                            setCurrentId(record.id);
+                                                        }}
+                                                    />
+                                                </Button>
+                                                <Button>
+                                                    <DeleteIcon
+                                                        color="secondary"
+                                                        onClick={() => onDelete(record.id)}
+                                                    />
+                                                </Button>
+                                            </ButtonGroup>
+                                        </TableCell>
+                                    </TableRow>
+                                );
+                            })}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+            </Grid>
+        </Grid>
+    </Paper>
     );
 }
 

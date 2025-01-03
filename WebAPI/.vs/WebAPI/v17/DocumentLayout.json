@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\controllers\\dcandidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\dcandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\models\\donationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\donationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -37,6 +33,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\models\\donationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\donationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|c:\\dev\\react-crud-with-asp.net-core-web-api\\webapi\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64999FAF-6E37-4A96-A590-18078B3E63F1}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,121 +50,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Config.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Config.cs",
+              "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Config.cs",
+              "RelativeToolTip": "WebAPI\\Config.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:18:32.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T07:54:21.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DCandidate.cs",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Models\\DCandidate.cs",
               "RelativeDocumentMoniker": "WebAPI\\Models\\DCandidate.cs",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Models\\DCandidate.cs",
               "RelativeToolTip": "WebAPI\\Models\\DCandidate.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowB0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T08:42:36.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "DonationDBContext.cs",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Models\\DonationDBContext.cs",
               "RelativeDocumentMoniker": "WebAPI\\Models\\DonationDBContext.cs",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Models\\DonationDBContext.cs",
               "RelativeToolTip": "WebAPI\\Models\\DonationDBContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T08:27:21.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WebAPI\\WeatherForecast.cs",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\WeatherForecast.cs",
               "RelativeToolTip": "WebAPI\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T09:04:38.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Startup.cs",
               "RelativeDocumentMoniker": "WebAPI\\Startup.cs",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Startup.cs",
               "RelativeToolTip": "WebAPI\\Startup.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAowDwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwDcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T09:04:29.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwBsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T09:04:20.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "DCandidateController.cs",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Controllers\\DCandidateController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\DCandidateController.cs",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Controllers\\DCandidateController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\DCandidateController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwBgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T09:49:15.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\appsettings.json",
               "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAByAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-09T07:29:57.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Dev\\React-CRUD-with-Asp.Net-Core-Web-API\\WebAPI\\WebAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-08T10:33:20.059Z",
               "EditorCaption": ""
