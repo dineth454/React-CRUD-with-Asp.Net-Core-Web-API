@@ -11,13 +11,18 @@ namespace WebAPI
             new List<IdentityResource>
             {
                 new IdentityResources.OpenId(),
-                new IdentityResources.Profile()
+                new IdentityResources.Profile(),
+                new IdentityResource("role", "user_role", new[] { "role" }) // Add roles identity resource
             };
 
         public static IEnumerable<ApiScope> GetApiScopes() =>
             new List<ApiScope>
             {
-                new ApiScope("api1", "ISAuthAPI")
+                //new ApiScope("api1", "ISAuthAPI")
+                new ApiScope("api1")
+                {
+                    UserClaims = { "role" } // Include the role claim in API scopes
+                }
             };
 
         public static IEnumerable<Client> GetClients() =>
@@ -32,7 +37,8 @@ namespace WebAPI
                     {
                         new Secret("secret".Sha256())
                     },
-                    AllowedScopes = { "api1" }
+                    AllowedScopes = { "api1", "role" },
+                    AlwaysIncludeUserClaimsInIdToken = true
                 }
             };
     }
